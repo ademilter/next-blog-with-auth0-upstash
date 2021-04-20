@@ -4,5 +4,5 @@
 2. Layout ve giriş sayfamızı tasarlayalım
 3. Blog listesi ve detay sayfası
 4. Yorum kutusu ve auth0 entegrasyonu
-5. Giriş yapmış kullanıcının yorumunu redis’e kaydedelim (upstash)
+5. Giriş yapmış kullanıcının yorumunu redis’e (db) kaydedelim (upstash)
 6. Sayfaya yapılmış yorumları listeleyelim (upstash)
