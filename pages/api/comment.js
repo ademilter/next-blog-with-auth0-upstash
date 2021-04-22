@@ -27,6 +27,10 @@ export default async function handler(req, res) {
     )
     const user = await userResponse.json()
 
+    if (!user) {
+      return errorResponse(res, Boom.unauthorized())
+    }
+
     const comment = {
       id: nanoid(),
       createdAt: Date.now(),
