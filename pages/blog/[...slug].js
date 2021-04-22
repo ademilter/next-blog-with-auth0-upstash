@@ -4,7 +4,6 @@ import { mdxComponents } from '../../components/mdx-components'
 import { useAuth0 } from '@auth0/auth0-react'
 import { useState, useEffect } from 'react'
 import Form from '../../components/form'
-import { DateTime } from 'luxon'
 import Comments from '../../components/comments'
 
 export default function PostPage({ post }) {
